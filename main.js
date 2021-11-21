@@ -1,3 +1,1 @@
-var greeting = "Hello random user!";
-var greeting2 = "Goodbye!";
-console.log(greeting);
+var message1 = "This is a randomly generated message";
