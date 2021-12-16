@@ -2,11 +2,25 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 nav {
-    background-color: #7CB9E8;
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+    display: inline-flex;
+    align-items: center;
 }
 nav a {
-    color: white;
+    color: black;
+    margin: 6em;
+}
+#title {
+    /* background-color: #7CB9E8; */
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #title h1 {
     text-align: center;
+    
 }
