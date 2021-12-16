@@ -1,0 +1,12 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    background-color: #7CB9E8;
+}
+nav a {
+    color: white;
+}
+#title h1 {
+    text-align: center;
+}
