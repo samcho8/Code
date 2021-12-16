@@ -6,13 +6,40 @@
         <title> Sam Cho </title>
     </head>
     <body>    
-        <nav> 
-            <a href = "aboutme.html"> About Me </a>
-            <a href = "projects.html"> Projects </a>
-            <a href = "contact.html"> Contact Me </a>
-        </nav>
-        <div id = "title">
-            <h1> Hi, I'm Sam </h1>
+        <div class = "card">
+            <h3> Sam Cho</h3>
+            <a href = "contact.html"> Contact Me</a>
+            <br>
+            <button type = "button" onclick = "darkMode()"> Try dark mode!</button>
+            <br>
+            <button type = "button" onclick = "lightMode()"> Try light mode!</button>
         </div>
+        <div class = "title">
+            <h1> About me </h1>
+        </div>
+        <div class = "desc">
+            <p> Hello, my name is Sam and I am a sophomore studying Computer Science at <a href = "https://oregonstate.edu/"> Oregon State University</a>. 
+             </p>
+             <div>
+            <h3> My Profiles </h3>
+             </div>
+             <div>
+                <a class = "profiles" href = "https://github.com/samcho8"> Github</a>
+             </div>
+             <div>
+                <a class = "profiles" href = "www.linkedin.com/in/sung-cho-137ba1183
+                "> Linkedin</a>
+             </div>
+        </div>
+        <script>
+            function darkMode() {
+                document.body.style.backgroundColor = "#36454F";
+                document.body.style.color = "white";
+            }
+            function lightMode() {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+            }
+            </script>
     </body>
 </html>
